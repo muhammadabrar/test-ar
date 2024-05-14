@@ -11,7 +11,7 @@ function App() {
   return (
     <Routes>
       {/* <Route path="/" element={<XrGalleryContainer />} /> */}
-      <Route path="/" element={<XrHitModelContainer />} />
+      <Route path="/" element={<XrGalleryContainer />} />
 
       <Route path="/cube" element={<CubeContainer />} />
       <Route path="/xr-cube" element={<XrCubeContainer />} />
