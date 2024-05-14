@@ -10,7 +10,9 @@ import XrOverlayContainer from "./components/xr-overlay/XrOverlayContainer";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<XrGalleryContainer />} />
+      {/* <Route path="/" element={<XrGalleryContainer />} /> */}
+      <Route path="/" element={<XrHitModelContainer />} />
+
       <Route path="/cube" element={<CubeContainer />} />
       <Route path="/xr-cube" element={<XrCubeContainer />} />
       <Route path="/xr-hit-cube" element={<XrHitCubeContainer />} />
